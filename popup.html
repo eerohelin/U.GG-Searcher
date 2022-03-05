@@ -2,10 +2,27 @@
 <html>
   <head>
     <link rel="stylesheet" href="popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
   </head>
   <body>
-    <input type="text" name="" placeholder="Champion Name" id="textInput">
-    <button id="searchButton" onclick="searchFunc()">Search!</button>
+      <!-- Title Box -->
+      <div id="title">
+        <img src="/images/ugg-icon-16-white.png" alt="" id="title-img">
+        <p id="title-text">U.GG Searcher</p>
+      </div>
+    
+    <input type="text" name="" placeholder="Champion Name" id="textInput" autofocus>
+    
+    <select id="rank" >
+        <option value="master_plus">Master +</option>
+        <option value="diamond_2_plus">Diamond 2 +</option>
+        <option value="diamond_plus">Diamond +</option>
+        <option value="overall">All Ranks</option>
+    </select>
+
+    <button id="searchButton" onclick="searchFunc()">Search</button>
 
     <script src="popup.js"></script>
   </body>
