@@ -1,16 +1,24 @@
 {
     "name": "U.GG Searcher",
     "options_page": "options.html",
-    "description": "Automatically search UGG champions by writing the name",
+    "description": "Automatically open U.GG champions page by writing the name",
     "version": "1.0",
     "manifest_version": 3,
+    "permissions": [
+        "storage"
+      ],
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
             "16" : "/images/ugg-icon-16.png",
             "48" : "/images/ugg-icon-48.png",
-            "128" : "/images/ugg-icon-128"
+            "128" : "/images/ugg-icon-128.png"
         }
+      },
+      "icons" : {
+        "16" : "/images/ugg-icon-16.png",
+        "48" : "/images/ugg-icon-48.png",
+        "128" : "/images/ugg-icon-128.png"
       }
     
   }
