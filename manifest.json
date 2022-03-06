@@ -1,6 +1,6 @@
 {
     "name": "U.GG Searcher",
-    "options_page": "options.html",
+    "options_page": "/options-page/options.html",
     "description": "Automatically open U.GG champions page by writing the name",
     "version": "1.0",
     "manifest_version": 3,
@@ -8,7 +8,7 @@
         "storage"
       ],
     "action": {
-        "default_popup": "popup.html",
+        "default_popup": "/popup/popup.html",
         "default_icon": {
             "16" : "/images/ugg-icon-16.png",
             "48" : "/images/ugg-icon-48.png",
